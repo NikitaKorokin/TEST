@@ -13,8 +13,8 @@ export default class extends React.Component {
         .filter((number) => number < 6)
         .map((number) => <li>Привет {number}</li>)
       let numberOfHellos = this.state.counter
-      if (numberOfHellos > 10){
-          numberOfHellos = 10
+      if (numberOfHellos > 11){
+          numberOfHellos = 11
       }
       return (
         <>
